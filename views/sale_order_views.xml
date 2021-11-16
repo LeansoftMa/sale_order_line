@@ -7,10 +7,10 @@
 		<field name="arch" type="xml">
 			<tree string="Sale Order Lines" create="false">
 				<field name="order_ref" string="Order Reference"/>
-				<field name="date_order"/>
-				<field name="commitment_date"/>
+				<field name="order_id.date_order"/>
+				<field name="order_id.commitment_date"/>
 				<field name="customer_id" string="Customer"/>
-				<field name="partner_shipping_id" string="Adresse de livraison"/>
+				<field name="order_id.partner_shipping_id" string="Adresse de livraison"/>
 				<field name="product_id" string="Product"></field>
 				<field name="name" string="Description"/>
 				<field name="price_unit" string="Unit Price"/>
